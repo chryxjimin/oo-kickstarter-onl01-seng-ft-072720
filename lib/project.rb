@@ -8,4 +8,9 @@ class Project
       @backers = []
       #binding.pry
   end
+
+  def add_backer(backer)
+    project << backer
+    backer.projects << self
+  end
 end
