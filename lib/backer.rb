@@ -11,6 +11,6 @@ class Backer
        Backer.project = backed_projects
    end
 
-   
+
 
 end
