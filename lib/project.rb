@@ -1,3 +1,4 @@
+require "pry"
 class Project
 
   attr_reader :title
@@ -5,5 +6,6 @@ class Project
   def initialize(title)
       @title = title
       @backers = []
+      binding.pry
   end
 end
